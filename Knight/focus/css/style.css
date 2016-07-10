@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -290,7 +290,7 @@ header {
 header .fh5co-navbar-brand {
   float: left;
   width: 100%;
-  position: relative;
+  position: relative;;
 }
 header .fh5co-navbar-brand h1 {
   width: 100%;
