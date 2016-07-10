@@ -594,8 +594,6 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
-	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;
 }
@@ -606,7 +604,7 @@ border: 2px solid #fff;
 	margin:20px 0 70px;
 	text-transform:uppercase;
 	font-size:42px;
-	color:#fff;
+	color:black;
 }
 
 
@@ -1095,4 +1093,8 @@ section h3.section-subheading{
 }
 #allpic:hover {
   width:300px;
+}
+
+.h2-white{
+  color: white;
 }
