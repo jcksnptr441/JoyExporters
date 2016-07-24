@@ -53,7 +53,8 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
-	.header{ padding:40px 0;}
+	.header{ padding:30px 0;}
+	.header-other{ padding:30px 0; height: 551px;}
 	.main-section{ padding:30px 0 30px;}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
 	.main-nav li{ display:block;}
@@ -63,25 +64,27 @@
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
 	.res-nav_click{ display:block;}
-	.featured-work{ font-size:12px; margin-top:30px;}
+	.featured-work{ font-size:12px;}
 	.featured-box{ font-size:12px;}
 	.featured-box p{ line-height:18px; }
 	.c-logo-part ul a{ margin-bottom:5px;}
 	.main-section.team{ padding:60px 0 50px;}
-	.business-talking h2{ font-size:36px;}
+	.business-talking h2{ font-size:26px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
 	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
-	.main-section.contact{ padding:60px 0 70px}
+	.main-section.contact{ padding:0 0 30px}
 	.client-part-haead{ font-size:20px; line-height:30px;}
 	.link{ font-size:14px; padding:10px 25px;}
 	.logo{ width:100px;}
 	.main-section.contact{ background-size:contain;}
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
+	.h1-color{font-size:35px;}
+	.product-box{ padding-top: 15px; padding-bottom: 15px; }
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -105,5 +108,7 @@
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
+	section h2.section-heading{font-size:26px;margin-top:0;margin-bottom:15px}
+	.business-talking{ padding:30px 0 0 0; text-align:center;
 
 }

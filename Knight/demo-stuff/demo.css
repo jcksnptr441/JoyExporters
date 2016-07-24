@@ -1,0 +1,105 @@
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3,  h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+body {
+	background:#fcfcfc;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#888888;
+	margin:0;
+}
+
+#container {width: 80%; max-width: 800px; margin: 0 auto;}
+
+h2 {
+	font-size:34px;
+color:#222222;
+font-family: 'Montserrat', sans-serif;
+font-weight:700;
+letter-spacing: -1px;
+margin:30px 0 15px 0;
+text-align:center;
+text-transform:uppercase;
+}
+	h2 a {text-decoration: none; color: #427f9e;}
+h2 a:hover {border-bottom: 1px dotted #427f9e;}
+
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:15px 0 30px 0;
+}
+
+
+/* Navigation
+---------------------------------*/
+.main-nav-outer{
+	padding:0px;
+	border-bottom:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+.main-nav{
+	text-align:center;
+	margin:0px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.main-nav li a{
+	display:inline-block;
+	color:#222222;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 32px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{
+	text-decoration:none;
+	color: #7cc576;
+}
+
+.small-logo{
+	padding:0 32px;
+}
+.small-logo-other{
+  margin: 20px auto;
+}
+
+.main-section{
+	padding:90px 0 110px;
+}
+
+.a{
+	padding: 0px;
+	align-items: baseline;
+}

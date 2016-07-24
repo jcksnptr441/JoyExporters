@@ -80,6 +80,16 @@ h3{
 	text-transform:uppercase;
 	font-weight:400;
 }
+h4{
+  font-size:26px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:15px 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
 h6{
 	font-size:16px;
 	color:#888888;
@@ -101,6 +111,11 @@ p{
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
 	padding:200px 0;
 }
+.header-other{
+	text-align:center;
+	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	padding:150px 0;
+}
 .logo{
 	width:130px;
 	margin:0 auto 35px;
@@ -110,13 +125,38 @@ p{
 	font-size:45px;
 	font-weight:400;
 	letter-spacing: -1px;
-	margin:0 0 25px 0 ;
+	margin:0 0 15px 0 ;
 	color:#fff;
+}
+.h1-color{
+  font-family: 'Montserrat',sans-serif;
+  font-size:45px;
+  font-weight:400;
+  letter-spacing: -1px;
+  margin:0 0 15px 0 ;
+  color:#fff;
 }
 
 .we-create{
 	padding:0;
 	margin:-17px 0 20px;
+}
+.we-create-other{
+	padding:0;
+	margin:20px 0 20px;
+  list-style: none;
+}
+.we-create-other li{
+	display:inline-block;
+	font-family: 'Montserrat',sans-serif;
+	font-size:14px;
+	color: #bcbcbc;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin:0 5px 0 0;
+}
+.we-create-other li:first-child{
+	background:none;
 }
 .wp-pic{
 	margin-bottom:20px;
@@ -145,18 +185,21 @@ color: #fff;
 
 
 .link{
-	padding:15px;
+	padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 	background:#7cc576;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
-  width:300px;
+  width:275px;
 	font-family: 'Montserrat', sans-serif;
 	display:inline-block;
 	border-radius:3px;
 	text-transform:uppercase;
 	line-height:25px;
-  margin: 15px;
+  margin: 5px;
 
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -176,6 +219,11 @@ color: #fff;
 
 /* Navigation
 ---------------------------------*/
+.nav-space{
+  width: 150px;
+  margin: 6px 0 9px 0px;
+}
+
 .main-nav-outer{
 	padding:0px;
 	border-bottom:1px solid #dddddd;
@@ -185,7 +233,7 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:5px 0 5px;
 	padding:0;
 	list-style:none;
 }
@@ -200,7 +248,6 @@ color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -213,6 +260,9 @@ color: #fff;
 
 .small-logo{
 	padding:0 32px;
+}
+.small-logo-other{
+  margin: 20px auto;
 }
 
 .main-section{
@@ -251,6 +301,7 @@ color: #fff;
 ---------------------------------*/
 .featured-work{
 	font-size:14px;
+  padding-top: 45px;
 }
 .featured-work h2{
 	text-align:left;
@@ -594,16 +645,15 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	padding:60px 0 10px;
+	padding:90px 90px 0 90px;
 	text-align:center;
 }
 .business-talking h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	padding:0;
-	margin:20px 0 70px;
 	text-transform:uppercase;
-	font-size:42px;
+	font-size:34px;
 	color:black;
 }
 
@@ -611,11 +661,11 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:30px 0 90px;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../img/bg-map.png) left 0px no-repeat;
 }
 .contact-info-box{
 	font-size:15px;
@@ -854,9 +904,9 @@ border: 2px solid #fff;
 	display: block;
 	width: 15px;
 	height: 15px;
-	border-right: 1px solid rgba(255,255,255,.8);
-	border-bottom: 1px solid rgba(255,255,255,.8);
-	margin: 0 0 2px 5px;
+	border-right: 2px solid rgba(255,255,255,.8);
+	border-bottom: 2px solid rgba(255,255,255,.8);
+	margin: 0 0 0 -5px;
 
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -988,24 +1038,24 @@ a {
 
 .bg-light-gray{background-color:#f7f7f7}
 .text-muted{color:#777}
-section{padding:100px 0}
-section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
+section{padding:30px 0}
+section h2.section-heading{font-size:34px;margin-top:0;margin-bottom:15px}
 section h3.section-subheading{
   font-size:16px;
   font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform:none;
   font-style:italic;
   font-weight:400;
-  margin-bottom:75px}
+  margin-bottom:30px}
 
   @media (min-width:768px){
-    section{padding:150px 0}}
+    section{padding:90px 0}}
     .service-heading{
       margin:15px 0;
       text-transform:none}
       #portfolio
   .portfolio-item{
-    margin:0 0 15px;
+    margin:0 0 30px;
     right:0}
     #portfolio
     .portfolio-item
@@ -1097,4 +1147,13 @@ section h3.section-subheading{
 
 .h2-white{
   color: white;
+}
+
+.nav-space-other{
+  width: 300px;
+}
+
+.product-box{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
