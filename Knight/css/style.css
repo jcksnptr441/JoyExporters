@@ -282,7 +282,7 @@ color: #fff;
 
 .main-section{
   padding: 90px 0 110px;
-  background: url(../img/bg-p2.png) left top repeat rgba(255,255,255,0);
+  background: url(../img/bg-p2.png) left top repeat rgba(255,255,255,0.4);
 }
 
 
