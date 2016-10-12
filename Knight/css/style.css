@@ -312,7 +312,9 @@ color: #fff;
 .main-section.alabaster{
 	background:#fafafa;
 }
-
+.main-section{
+  background: url(../images/bg-p.png) left top repeat;
+}
 
 /* Featured Work
 ---------------------------------*/
